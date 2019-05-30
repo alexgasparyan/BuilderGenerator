@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    api project(':builder_annotations')
+    compile 'com.squareup:javapoet:1.11.1'
+}
+
+sourceCompatibility = "8"
+targetCompatibility = "8"
